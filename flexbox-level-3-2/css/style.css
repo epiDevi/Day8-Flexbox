@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Light.ttf");
+}
+
+body{
+    background: #ddf8f8;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: Lato,Arial, Helvetica, sans-serif ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+}
+
+.logo img{
+    width: 22px;
+    margin-right: 10px;
+}
+
+.logo h1{
+    font-size: 24px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    
+}
+.nav ul{
+    margin-left: 50px;
+}
+.nav ul li{
+    margin-right: 25px;
+}
+li a{
+    font-size: 16px;
+}
+.card{
+    margin-left: auto;
+    margin-right: 50px;
+}
+.card ul li{
+    margin-left: 25px;
+}
+
+.rings{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+.rings h1{
+    margin-left: 125px;
+}
+.gallery{
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.ring-1{
+    background: url("../img/ring001.png.png");
+    width: 340px;
+    height: 228px;
+}
+.ring-2{
+    background: url("../img/ring002.png.png");
+    width: 340px;
+    height: 228px;
+}
+.ring-3{
+    background: url("../img/ring003.png.png");
+    width: 340px;
+    height: 228px;
+}
+.ring-4{
+    background: url("../img/ring004.png.png");
+    width: 340px;
+    height: 228px;
+}
+.ring-5{
+    background: url("../img/ring005.png.png");
+    width: 340px;
+    height: 228px;
+}
+.ring-6{
+    background: url("../img/ring006.png.png");
+    width: 340px;
+    height: 228px;
+}
+
+.gallery div{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+
+}
+.gallery div p{
+    margin-right: 20px;
+}

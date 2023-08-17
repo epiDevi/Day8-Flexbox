@@ -1,0 +1,12 @@
+
+
+.flex{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+img{
+    width: 250px;
+    height: 190px;
+}

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Didact Gothic;
+    src: url("../fonts/DidactGothic-Regular.ttf");
+}
+body{
+    background: url("../img/photo-1682685797406-97f364419b4a.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: Didact Gothic, Arial, Helvetica, sans-serif;
+    font-size: clamp(0.8rem, 2vw,2rem);
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: gray;
+    opacity: .4;
+    margin: 0;
+}
+.nav h2{
+    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 3vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav div{
+    display: flex;
+    align-items: stretch;
+}
+
+.nav  ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav  ul li{
+    list-style-type: none;
+    margin-left: 40px;
+}
